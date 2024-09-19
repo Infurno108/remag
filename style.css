@@ -10,12 +10,14 @@ body {
     src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
 
+
+
 #remag {
     height:1vh;
     font-family: neon;
     text-align:center;
     margin-top: 5%;
-    font-size:11vh;
+    font-size:14vh;
     color:#ffffff;
     animation: flux 2s linear infinite;
     -moz-animation: flux 2s linear infinite;
@@ -27,20 +29,30 @@ body {
     position: center;
     margin-top: 15%;
     display:grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-template-rows:  325px 325px 325px;
     justify-content: space-evenly;
 }
-
 .person{
-    text-align: center;
-    font-family: neon;
-    color: #8a8a8a;
     border-radius: 25px;
     width: 200px;
     height: 250px;
     box-shadow: 0 0 .5vw #1041FF, 0 0 .75vw #1041FF, 0 0 2.5vw #1041FF, 0 0 2.5vw #1041FF;
 }
+#name{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Archivo", sans-serif;
+  color: #e6e6e6;
+}
+#status{
+  text-align: center;
+  margin-top: 70%;
+  font-size:2vh;
+  font-family: "Archivo", sans-serif;
+  color: #29fa79;
+}
+
 
 @keyframes jux {
     0%,
